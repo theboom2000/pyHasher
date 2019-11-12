@@ -7,9 +7,9 @@ def main():
 		fo = open("b.txt","w")
 		c=0
 		for i in afile:
-			#print(i,j)
+			#The strings are hashed though library hasllib
 			result = hashlib.md5(str.encode(i)) 
-			#print(result.hexdigest()) 
+			
 			fo.write(result.hexdigest())
 			fo.write("\n")
 			c = c+ 1
