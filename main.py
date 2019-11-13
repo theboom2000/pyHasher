@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     if not args:
         parser.print_usage()
-		print("File not in txt")
+		
         exit(1)
 
 
